@@ -1,0 +1,93 @@
+/* NEXUS ENERGY | Alpha 0.18.1 · sistema tipográfico
+   Referencia visual: landing NEXUS. No altera cálculos, gráficos, mapas ni datos.
+   Las fuentes remotas tienen alternativas locales por si no hay conexión. */
+:root {
+  --font-display: "Michroma", "Trebuchet MS", "Segoe UI", sans-serif;
+  --font-body: "Manrope", "Segoe UI", Arial, sans-serif;
+  --font-numeric: "Rajdhani", "Arial Narrow", "Segoe UI", sans-serif;
+}
+body { font-family: var(--font-body); font-size: 14px; line-height: 1.62; font-weight: 500; }
+button, input, select, textarea { font-family: var(--font-body); }
+
+/* El carácter geométrico de la landing se concentra en titulares grandes. */
+.hero h1 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(23px, 2.45vw, 40px);
+  line-height: 1.32;
+  letter-spacing: -.062em;
+  overflow-wrap: normal;
+  text-wrap: balance;
+}
+.page-heading h1 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(22px, 2.15vw, 32px);
+  line-height: 1.38;
+  letter-spacing: -.048em;
+  text-wrap: balance;
+}
+.section-heading h2 {
+  font-family: var(--font-body);
+  font-size: clamp(18px, 1.55vw, 22px);
+  font-weight: 800;
+  line-height: 1.33;
+  letter-spacing: -.035em;
+}
+.panel h3,.resource-name,.module-card .title,.timeline-item h3,.fact-face h3 {
+  font-family: var(--font-body);
+  font-weight: 800;
+  letter-spacing: -.025em;
+}
+.hero-kicker,.eyebrow,.nav-caption,.brand-sub,.topbar-pill,.fact-category,.reference-kicker {
+  font-family: var(--font-numeric);
+  font-weight: 700;
+  letter-spacing: .12em;
+}
+.brand-sub { font-size: 11px; letter-spacing: .2em; line-height: 1.55; }
+.nav-link { font-weight: 700; letter-spacing: -.01em; }
+.crumb { font-family: var(--font-numeric); font-weight: 700; font-size: 12px; letter-spacing: .10em; }
+.module-card .index { font-family: var(--font-numeric); font-size: 14px; letter-spacing: .12em; }
+
+/* Valores de energía: cifras tabulares, de lectura rápida y estética técnica. */
+.metric .value,
+.hero-stat strong,
+.fact-face--front .fact-value,
+.fact-card .fact-value,
+.sim-result b,
+.map-data-readout strong,
+.bar-number,
+.geo-metrics strong,
+.national-table .bar-number,
+.regional-table td:last-child {
+  font-family: var(--font-numeric);
+  font-variant-numeric: tabular-nums lining-nums;
+  font-weight: 700;
+  letter-spacing: -.015em;
+}
+.metric .value { font-size: clamp(26px, 2.6vw, 35px); line-height: 1.02; }
+.hero-stat strong { font-size: clamp(28px, 2.5vw, 35px); line-height: 1; }
+.fact-face--front .fact-value { font-size: clamp(29px, 2.35vw, 37px); line-height: 1.08; }
+.sim-result b { font-size: 25px; }
+.bar-number { font-size: 14px; }
+
+/* Tablas y fuentes mantienen proporciones cómodas para datos académicos. */
+.compare-table,.regional-table,.national-table,.source,.chart-caption { font-family: var(--font-body); }
+.compare-table th,.regional-table th { font-weight: 800; letter-spacing: .015em; }
+.source { line-height: 1.7; }
+.button,.tab,.map-mode,.fact-flip-button { font-weight: 800; letter-spacing: .012em; }
+
+/* El ancho no debe perjudicar móviles ni el giro de tarjetas. */
+@media (max-width: 1000px) {
+  .hero h1 { font-size: clamp(25px, 4.1vw, 39px); }
+  .page-heading h1 { font-size: clamp(23px, 3.3vw, 31px); }
+}
+@media (max-width: 560px) {
+  .hero h1 { font-size: clamp(21px, 5.25vw, 28px); letter-spacing: -.07em; line-height: 1.32; }
+  .page-heading h1 { font-size: clamp(20px, 4.5vw, 26px); letter-spacing: -.065em; }
+  .hero-kicker { font-size: 10px; letter-spacing: .06em; }
+  .metric .value { font-size: 30px; }
+  .fact-face--front .fact-value { font-size: 32px; }
+  .bar-number { font-size: 12px; }
+  .crumb { font-size: 11px; }
+}
