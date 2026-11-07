@@ -1,0 +1,83 @@
+[
+  {
+    "year": "Antes de 2013",
+    "date": "1975–2013",
+    "title": "Modelo previo de servicio público",
+    "description": "Se toma como antecedente histórico la Ley del Servicio Público de Energía Eléctrica de 1975 y la organización previa. Evitar describir todo el sector como si ninguna modalidad de participación particular hubiera existido.",
+    "source": "DOF 11/08/2014, transitorios de la Ley de la Industria Eléctrica; marco anterior",
+    "sourceURL": "https://www.dof.gob.mx/nota_detalle.php?codigo=5355986&fecha=11/08/2014",
+    "kind": "contexto"
+  },
+  {
+    "year": "2013",
+    "date": "2013",
+    "title": "Iniciativa y discusión de la reforma",
+    "description": "Iniciativa del Ejecutivo federal de Enrique Peña Nieto y deliberación de ambas cámaras del Congreso y congresos locales. Hubo distintas posturas políticas sobre competencia, inversión, papel de CFE y soberanía energética; distinguir argumentos políticos de efectos estadísticamente probados.",
+    "source": "DOF 20/12/2013, preámbulo y procedimiento de reforma constitucional",
+    "sourceURL": "https://www.dof.gob.mx/nota_detalle.php?codigo=5327463&fecha=20/12/2013",
+    "kind": "proceso"
+  },
+  {
+    "year": "20 dic 2013",
+    "date": "2013-12-20",
+    "title": "Reforma constitucional de 2013",
+    "description": "Reformas a los artículos 25, 27 y 28: planeación y control del SEN y servicio público de transmisión y distribución en manos del Estado; se habilitaron otras formas de participación mediante leyes posteriores.",
+    "source": "DOF, 20/12/2013, arts. 25, 27 y 28; documento del usuario",
+    "sourceURL": "https://www.dof.gob.mx/nota_detalle.php?codigo=5327463&fecha=20/12/2013",
+    "kind": "norma"
+  },
+  {
+    "year": "11 ago 2014",
+    "date": "2014-08-11",
+    "title": "Ley de la Industria Eléctrica",
+    "description": "La LIE 2014 estructuró las actividades eléctricas y el diseño de competencia en generación/comercialización. Es un instrumento histórico, que no debe mostrarse como el marco jurídico actual de 2026.",
+    "source": "DOF 11/08/2014, Ley de la Industria Eléctrica; documento del usuario",
+    "sourceURL": "https://www.dof.gob.mx/nota_detalle.php?codigo=5355986&fecha=11/08/2014",
+    "kind": "norma"
+  },
+  {
+    "year": "28 ago 2014",
+    "date": "2014-08-28",
+    "title": "Creación de CENACE como organismo descentralizado",
+    "description": "Decreto que crea CENACE como operador del sistema y del mercado mayorista, conforme a las disposiciones del marco de 2014. No confundir con la CFE.",
+    "source": "DOF 28/08/2014, Decreto de creación de CENACE",
+    "sourceURL": "https://www.cenace.gob.mx/",
+    "kind": "institución"
+  },
+  {
+    "year": "2015",
+    "date": "2015-09-08",
+    "title": "Bases del mercado eléctrico mayorista",
+    "description": "Se expidieron bases regulatorias para los participantes y transacciones. Una reforma legal no equivale por sí sola a una medición de inversión o de reducción tarifaria.",
+    "source": "CENACE: Bases del Mercado Eléctrico Mayorista, 8 sep 2015",
+    "sourceURL": "https://www.cenace.gob.mx/Index_original.aspx",
+    "kind": "mercado"
+  },
+  {
+    "year": "2016",
+    "date": "2016-01-27",
+    "title": "Inicio del mercado eléctrico mayorista",
+    "description": "SENER reportó inicio el 27 de enero en Baja California y el 29 de enero en el SIN. Las fechas de puesta en marcha varían entre sistemas y etapas; corresponde a hechos operativos documentados.",
+    "source": "SENER, Inicia operaciones el Mercado Eléctrico Mayorista, 27/01/2016",
+    "sourceURL": "https://www.gob.mx/sener/articulos/inicia-operaciones-el-mercado-electrico-mayorista?idiom=es",
+    "kind": "mercado"
+  },
+  {
+    "year": "31 oct 2024",
+    "date": "2024-10-31",
+    "title": "Reforma constitucional de áreas y empresas estratégicas",
+    "description": "Modifica artículos 25, 27 y 28, reafirma las actividades exclusivas del Estado y cambia el marco de las empresas públicas. Es un régimen distinto al de 2013.",
+    "source": "DOF 31/10/2024, reforma constitucional de áreas y empresas estratégicas",
+    "sourceURL": "https://www.dof.gob.mx/nota_detalle.php?codigo=5742012&fecha=31/10/2024",
+    "kind": "norma"
+  },
+  {
+    "year": "18 mar 2025",
+    "date": "2025-03-18",
+    "title": "Ley del Sector Eléctrico y nueva Ley de CFE",
+    "description": "Nuevo marco legal del sector y naturaleza de empresa pública del Estado de CFE. Los artículos 1–4 de LSE delimitan actividades, rectoría y conceptos; no confundir con el marco histórico de 2014.",
+    "source": "DOF 18/03/2025, Ley del Sector Eléctrico y Ley de la Empresa Pública del Estado CFE; documentos del usuario",
+    "sourceURL": "https://sidof.segob.gob.mx/notas/5752329",
+    "kind": "norma"
+  }
+]

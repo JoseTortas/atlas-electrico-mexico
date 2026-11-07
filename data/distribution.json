@@ -1,0 +1,314 @@
+{
+  "divisions": [
+    {
+      "name": "Baja California",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 5373,
+        "mediumVoltageCircuits": 726,
+        "mediumVoltageKm": 21555,
+        "distributionNetworkMVA": 5089,
+        "servicesThousand": 1989,
+        "salesGWh": 18160,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Noroeste",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 6730,
+        "mediumVoltageCircuits": 1093,
+        "mediumVoltageKm": 41903,
+        "distributionNetworkMVA": 6461,
+        "servicesThousand": 2242,
+        "salesGWh": 22089,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Norte",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 6793,
+        "mediumVoltageCircuits": 958,
+        "mediumVoltageKm": 40922,
+        "distributionNetworkMVA": 2609,
+        "servicesThousand": 2385,
+        "salesGWh": 23948,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Golfo Norte",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 10222,
+        "mediumVoltageCircuits": 1565,
+        "mediumVoltageKm": 47406,
+        "distributionNetworkMVA": 6225,
+        "servicesThousand": 3683,
+        "salesGWh": 44262,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Golfo Centro",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 2996,
+        "mediumVoltageCircuits": 563,
+        "mediumVoltageKm": 31551,
+        "distributionNetworkMVA": 2811,
+        "servicesThousand": 2113,
+        "salesGWh": 13806,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Jalisco",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 5040,
+        "mediumVoltageCircuits": 743,
+        "mediumVoltageKm": 35818,
+        "distributionNetworkMVA": 3416,
+        "servicesThousand": 3513,
+        "salesGWh": 17103,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Bajío",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 6780,
+        "mediumVoltageCircuits": 1160,
+        "mediumVoltageKm": 68678,
+        "distributionNetworkMVA": 4727,
+        "servicesThousand": 4875,
+        "salesGWh": 32787,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Centro Occidente",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 2303,
+        "mediumVoltageCircuits": 750,
+        "mediumVoltageKm": 32578,
+        "distributionNetworkMVA": 2370,
+        "servicesThousand": 2543,
+        "salesGWh": 11791,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Centro Sur",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 3424,
+        "mediumVoltageCircuits": 582,
+        "mediumVoltageKm": 39430,
+        "distributionNetworkMVA": 2927,
+        "servicesThousand": 3135,
+        "salesGWh": 10067,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Centro Oriente",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 3867,
+        "mediumVoltageCircuits": 562,
+        "mediumVoltageKm": 27744,
+        "distributionNetworkMVA": 2571,
+        "servicesThousand": 3463,
+        "salesGWh": 16385,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Oriente",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 3887,
+        "mediumVoltageCircuits": 673,
+        "mediumVoltageKm": 45617,
+        "distributionNetworkMVA": 2876,
+        "servicesThousand": 3284,
+        "salesGWh": 14216,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Sureste",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 4046,
+        "mediumVoltageCircuits": 806,
+        "mediumVoltageKm": 65689,
+        "distributionNetworkMVA": 3791,
+        "servicesThousand": 4013,
+        "salesGWh": 10553,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Peninsular",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 4221,
+        "mediumVoltageCircuits": 652,
+        "mediumVoltageKm": 21815,
+        "distributionNetworkMVA": 2545,
+        "servicesThousand": 2142,
+        "salesGWh": 12928,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Valle de México Norte",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 4680,
+        "mediumVoltageCircuits": 497,
+        "mediumVoltageKm": 10525,
+        "distributionNetworkMVA": 3408,
+        "servicesThousand": 3072,
+        "salesGWh": 12706,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Valle de México Centro",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 3877,
+        "mediumVoltageCircuits": 443,
+        "mediumVoltageKm": 5849,
+        "distributionNetworkMVA": 3526,
+        "servicesThousand": 2149,
+        "salesGWh": 8590,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    },
+    {
+      "name": "Valle de México Sur",
+      "capacity": null,
+      "users": null,
+      "lossPct": null,
+      "polygon": null,
+      "observed2022": {
+        "stepdownSubstationMVA": 4655,
+        "mediumVoltageCircuits": 466,
+        "mediumVoltageKm": 11330,
+        "distributionNetworkMVA": 3773,
+        "servicesThousand": 2906,
+        "salesGWh": 11291,
+        "year": 2022,
+        "scope": "División de CFE Distribución"
+      }
+    }
+  ],
+  "source": {
+    "institution": "CFE",
+    "document": "Manual de Organización General de CFE Distribución, actualización 02 (28/05/2024)",
+    "printedPage": 14,
+    "url": "https://app.cfe.mx/normateca/VerDocumento.ashx?id=36475"
+  },
+  "geometry": null,
+  "status": "official-division-names-verified-geographic-boundaries-pending",
+  "note": "Existen indicadores divisionales verificados de 2022 en Tabla III.1 CFE; el 2024 nacional no se atribuye a las divisiones. Límites geográficos de las divisiones aún sin vector oficial.",
+  "regionalStats2022": {
+    "year": 2022,
+    "status": "official-observed",
+    "institution": "CFE Distribución",
+    "document": "Programa de Ampliación y Modernización de las Redes Generales de Distribución 2023–2037",
+    "table": "III.1",
+    "printedPages": [
+      8,
+      9
+    ],
+    "sourceURL": "https://www.cfe.gob.mx/distribucion/cumplimiento/Documents/PAM%20RGD%202023-2037%20vf.pdf",
+    "totals": {
+      "stepdownSubstationMVA": 78894,
+      "mediumVoltageCircuits": 12239,
+      "mediumVoltageKm": 548410,
+      "distributionNetworkMVA": 59125,
+      "servicesThousand": 47507,
+      "salesGWh": 280682
+    },
+    "units": {
+      "stepdownSubstationMVA": "MVA",
+      "mediumVoltageCircuits": "circuitos",
+      "mediumVoltageKm": "km",
+      "distributionNetworkMVA": "MVA",
+      "servicesThousand": "miles de servicios",
+      "salesGWh": "GWh"
+    },
+    "note": "Estadísticas por división observadas al cierre de 2022; no son datos de 2024. Servicios (contratos) no equivale directamente a personas usuarias."
+  }
+}

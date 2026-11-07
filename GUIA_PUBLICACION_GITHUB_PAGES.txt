@@ -1,0 +1,13 @@
+PUBLICACIÓN HOY - NEXUS ENERGY TE1020
+
+A) EXTRAER ZIP. Abrir carpeta NEXUS_ENERGY_SITIO_GITHUB_PAGES. Debes ver index.html directamente.
+B) SI YA EXISTE data/inegi_estados_web.geojson en tu computadora, copiarlo aquí dentro de data/ (opcional pero recomendado).
+C) Ir a github.com/new. Nombre: atlas-electrico-mexico. Elegir PUBLIC y crear repositorio.
+D) Add file > Upload files. Arrastrar TODO EL CONTENIDO DE LA CARPETA, no el ZIP. Conservar subcarpetas. Commit changes.
+E) Settings > Pages > Source: Deploy from a branch > Branch: main > Folder: /(root) > Save.
+F) Verificar URL: https://TU_USUARIO.github.io/atlas-electrico-mexico/
+G) Abrir Inicio y módulos Recursos, Generación, Transmisión, Distribución y ¿Sabías que?. Copiar URL pública para entregar antes de las 23:59.
+
+IMPORTANTE: Si aparece 404, confirmar index.html en la raíz y que Pages usa main/(root). Si la página está en blanco, verificar la consola y que se subieron las carpetas js/ y data/.
+Si la capa INEGI no aparece y no subiste el archivo local, la aplicación intentará pedirla al servicio INEGI. Copia solo el archivo ligero después si hace falta.
+La primera publicación de GitHub Pages puede tardar varios minutos; no demores la subida.

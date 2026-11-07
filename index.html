@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0A0A0A">
+  <meta name="description" content="Atlas Eléctrico de México, proyecto académico NEXUS ENERGY. Recursos, generación, transmisión y distribución eléctrica.">
+  <title>NEXUS ENERGY | Atlas Eléctrico de México · v0.16.1</title>
+  <link rel="icon" href="assets/img/logo-nexus-energy.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="css/leaflet-layout.css">
+  <link rel="stylesheet" href="css/styles.css?v=0.16.1">
+  <link rel="stylesheet" href="css/components.css?v=0.16.1">
+  <link rel="stylesheet" href="css/responsive.css?v=0.16.1">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+  <script type="module" src="js/app.js?v=0.16.1"></script>
+</head>
+<body>
+  <a class="skip" href="#content">Saltar al contenido</a>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar" aria-label="Navegación principal">
+      <div class="brand">
+        <img src="assets/img/logo-nexus-energy.jpg" alt="Logotipo oficial NEXUS ENERGY" class="brand-image">
+        <span class="brand-sub">ENERGY INTELLIGENCE / TE1020</span>
+      </div>
+      <div class="nav-caption">EXPLORAR EL ATLAS</div>
+      <nav class="nav" id="navigation">
+        <button type="button" class="nav-link active" data-view="overview"><span class="nav-index">◎</span> Panorama general</button>
+        <button type="button" class="nav-link" data-view="resources"><span class="nav-index">00</span> Recursos energéticos</button>
+        <button type="button" class="nav-link" data-view="generation"><span class="nav-index">01</span> Generación eléctrica</button>
+        <button type="button" class="nav-link" data-view="transmission"><span class="nav-index">02</span> Transmisión eléctrica</button>
+        <button type="button" class="nav-link" data-view="distribution"><span class="nav-index">03</span> Distribución eléctrica</button>
+        <button type="button" class="nav-link" data-view="facts"><span class="nav-index">04</span> ¿Sabías que?</button>
+      </nav>
+      <div class="sidebar-bottom"><span class="signal"></span> VERSIÓN ACADÉMICA <strong id="appVersion">0.16.1</strong><div>Datos oficiales + simulaciones identificadas</div></div>
+    </aside>
+    <div class="main-shell">
+      <header class="topbar">
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir o cerrar menú">☰</button>
+        <div class="crumb">NEXUS <span>/</span> ATLAS ELÉCTRICO <span>/</span> <strong id="crumbCurrent">PANORAMA</strong></div>
+        <div class="topbar-right"><span class="topbar-pill">SEN/CFE 2022–2024 · GIS 2017</span><span class="avatar">NE</span></div>
+      </header>
+      <main id="content" tabindex="-1" aria-live="polite"></main>
+      <footer class="footer">NEXUS ENERGY · TE1020 · Atlas Eléctrico de México <span>Las cifras CFE no equivalen automáticamente al total nacional. Mapas sin geometría no representan activos inventados.</span></footer>
+    </div>
+  </div>
+</body>
+</html>

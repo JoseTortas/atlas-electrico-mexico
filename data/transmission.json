@@ -1,0 +1,196 @@
+{
+  "systems": [
+    {
+      "name": "Sistema Interconectado Nacional",
+      "short": "SIN",
+      "detail": "Comprende las regiones Central, Oriental, Occidental, Noroeste, Norte, Noreste y Peninsular. No incluye Baja California, Baja California Sur ni Mulegé."
+    },
+    {
+      "name": "Sistema Interconectado Baja California",
+      "short": "SIBC",
+      "detail": "Distinto del SIN; el PRODESEN reporta conexión con WECC (Estados Unidos) por dos líneas de 230 kV de corriente alterna. Esto no lo conecta al SIN."
+    },
+    {
+      "name": "Sistema Interconectado Baja California Sur",
+      "short": "SIBCS",
+      "detail": "Opera eléctricamente aislado del SIN, SIBC y Mulegé según PRODESEN 2024-2038, Anexo 1."
+    },
+    {
+      "name": "Sistema Interconectado Mulegé",
+      "short": "SIMUL",
+      "detail": "Pequeño sistema separado de los demás; su centro de control se ubica en Santa Rosalía, según PRODESEN 2024-2038."
+    }
+  ],
+  "voltage2023": [
+    {
+      "label": "400 kV",
+      "kv": 400,
+      "km": 26135
+    },
+    {
+      "label": "230 kV",
+      "kv": 230,
+      "km": 29743
+    },
+    {
+      "label": "161 kV",
+      "kv": 161,
+      "km": 531
+    },
+    {
+      "label": "138 kV",
+      "kv": 138,
+      "km": 1620
+    },
+    {
+      "label": "115 kV",
+      "kv": 115,
+      "km": 48725
+    },
+    {
+      "label": "85 kV",
+      "kv": 85,
+      "km": 1757
+    },
+    {
+      "label": "69 kV",
+      "kv": 69,
+      "km": 2335
+    }
+  ],
+  "voltageSource": {
+    "institution": "SENER",
+    "document": "PRODESEN 2024-2038, Anexo 1",
+    "printedPage": 156,
+    "figure": "Cuadro A1.1",
+    "year": 2023,
+    "url": "https://base.energia.gob.mx/PRODESEN2024/prodesen24-38A1.PDF"
+  },
+  "rnt2023ReportedKm": 110846,
+  "rnt2023ByLevelsTotalKm": 110846,
+  "rnt2023Mva": 113688,
+  "rnt2023MvaSource": "PRODESEN 2024-2038, Anexo 1, Cuadro A1.2, p. 157",
+  "lines": [],
+  "status": "systems-documented-no-verified-line-polylines",
+  "demandForecast": {
+    "institution": "SENER",
+    "document": "PRODESEN 2024–2038",
+    "table": "Cuadro 3.7",
+    "printedPage": 81,
+    "sourceURL": "https://www.cenace.gob.mx/Docs/16_MARCOREGULATORIO/Prodecen/20%202024-2038%20Cap%C3%ADtulos%201%20al%206.pdf",
+    "yearType": "Proyección / escenario de planeación, no medición",
+    "unit": "MWh/h",
+    "methodologyNote": "Pronóstico regional de demanda máxima integrada neta, no coincidente; los picos regionales no deben sumarse para calcular el máximo del SIN. El total SEN refleja supuesto del estudio, no interconexiones presentes.",
+    "regions": [
+      {
+        "name": "Central",
+        "system": "SIN",
+        "values": {
+          "2024": 9012,
+          "2030": 10234,
+          "2038": 11816
+        }
+      },
+      {
+        "name": "Oriental",
+        "system": "SIN",
+        "values": {
+          "2024": 8817,
+          "2030": 10107,
+          "2038": 11898
+        }
+      },
+      {
+        "name": "Occidental",
+        "system": "SIN",
+        "values": {
+          "2024": 11598,
+          "2030": 13468,
+          "2038": 16816
+        }
+      },
+      {
+        "name": "Noroeste",
+        "system": "SIN",
+        "values": {
+          "2024": 5853,
+          "2030": 6784,
+          "2038": 8094
+        }
+      },
+      {
+        "name": "Norte",
+        "system": "SIN",
+        "values": {
+          "2024": 5492,
+          "2030": 6307,
+          "2038": 7473
+        }
+      },
+      {
+        "name": "Noreste",
+        "system": "SIN",
+        "values": {
+          "2024": 11051,
+          "2030": 12891,
+          "2038": 16161
+        }
+      },
+      {
+        "name": "Peninsular",
+        "system": "SIN",
+        "values": {
+          "2024": 2834,
+          "2030": 3614,
+          "2038": 4883
+        }
+      },
+      {
+        "name": "Baja California",
+        "system": "SIBC",
+        "values": {
+          "2024": 3570,
+          "2030": 4416,
+          "2038": 5415
+        }
+      },
+      {
+        "name": "Baja California Sur",
+        "system": "SIBCS",
+        "values": {
+          "2024": 692,
+          "2030": 842,
+          "2038": 1081
+        }
+      },
+      {
+        "name": "Mulegé",
+        "system": "SIMUL",
+        "values": {
+          "2024": 32,
+          "2030": 37,
+          "2038": 42
+        }
+      }
+    ],
+    "reportedAggregates": {
+      "SIN": {
+        "2024": 52526,
+        "2030": 61026,
+        "2038": 74527
+      },
+      "SEN": {
+        "2024": 55590,
+        "2030": 65116,
+        "2038": 79627
+      }
+    }
+  },
+  "regionalReferenceMap": {
+    "institution": "CENACE",
+    "document": "Diagramas Unifilares del Sistema Eléctrico Nacional 2020–2025",
+    "year": 2021,
+    "sourceURL": "https://www.cenace.gob.mx/Docs/10_PLANEACION/DiagramasUnifilares/Mod%20Gral%20Planeaci%C3%B3n%202020-2025%20Diagramas%20Unifilares%20RNT%20y%20RGD%20del%20MEM.pdf",
+    "note": "Mapa y diagramas oficiales como referencia visual histórica; no se derivan de ellos coordenadas puntuales."
+  }
+}

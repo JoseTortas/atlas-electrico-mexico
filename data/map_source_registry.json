@@ -1,0 +1,120 @@
+{
+  "appVersion": "0.16.1-alpha",
+  "purpose": "Registro de procedencia geográfica; NO mezclar alcance ni años",
+  "layers": [
+    {
+      "id": "states_2025",
+      "modules": [
+        "generation",
+        "transmission",
+        "distribution"
+      ],
+      "featureType": "Polygon/MultiPolygon",
+      "reference": "INEGI Marco Geoestadístico, servicio oficial (fecha exacta de corte del GeoJSON por confirmar)",
+      "sourceUrl": "https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgee/",
+      "localFile": "data/inegi_estados_2025.geojson",
+      "availability": "copia ligera local si existe, original local de respaldo, consulta remota como última opción",
+      "intendedMeaning": "límites de entidades federativas",
+      "notEquivalentTo": [
+        "16 divisiones CFE Distribución",
+        "4 sistemas eléctricos",
+        "10 regiones CENACE"
+      ],
+      "lightFile": "data/inegi_estados_web.geojson",
+      "optimization": "Douglas–Peucker por anillo; límite de variación de área 2 %; topología compartida NO garantizada; no apto para cálculos de superficie ni límites jurídicos"
+    },
+    {
+      "id": "plants_2017_100mw",
+      "modules": [
+        "generation"
+      ],
+      "featureType": "Point",
+      "reference": "CANIE/NACEI agosto 2017, capa 15",
+      "sourceUrl": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/NACEI/energy_infrastructure_of_north_america_en/MapServer/15",
+      "availability": "consulta en línea o sincronización opcional",
+      "intendedMeaning": "ubicaciones y capacidades publicadas para 2017",
+      "notEquivalentTo": [
+        "inventario 2024",
+        "generación anual en GWh"
+      ]
+    },
+    {
+      "id": "plants_2017_renewable",
+      "modules": [
+        "generation"
+      ],
+      "featureType": "Point",
+      "reference": "CANIE/NACEI agosto 2017, capa 28",
+      "sourceUrl": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/NACEI/energy_infrastructure_of_north_america_en/MapServer/28",
+      "availability": "consulta en línea o sincronización opcional",
+      "intendedMeaning": "ubicaciones de centrales renovables publicadas para 2017",
+      "notEquivalentTo": [
+        "inventario 2024"
+      ]
+    },
+    {
+      "id": "transmission_cities_2017",
+      "modules": [
+        "transmission"
+      ],
+      "featureType": "Point",
+      "reference": "CFE Transmisión Plan de Negocios 2018–2022, Anexo 1, p. 58",
+      "localFile": "data/transmission_regions_2017.json",
+      "availability": "local",
+      "intendedMeaning": "ciudad de referencia de gerencia regional, cifras agregadas de 2017",
+      "notEquivalentTo": [
+        "subestaciones",
+        "líneas",
+        "gerencias actuales",
+        "límites de sistemas"
+      ]
+    },
+    {
+      "id": "cfe_division_facilities_2026",
+      "modules": [
+        "distribution"
+      ],
+      "featureType": "Point",
+      "reference": "CFE Distribución Directorio de Almacenes, anexo 2, enero 2026",
+      "localFile": "data/distribution_locations.json",
+      "availability": "local",
+      "intendedMeaning": "nueve instalaciones de la División Golfo Centro",
+      "notEquivalentTo": [
+        "sedes de todas las divisiones",
+        "límites divisionales",
+        "estadísticas por almacén"
+      ]
+    },
+    {
+      "id": "cfe_divisions_2022_image",
+      "modules": [
+        "distribution"
+      ],
+      "featureType": "mapa institucional NO georreferenciado",
+      "reference": "CFE Informe Anual 2022, p. impresa 140",
+      "localFile": "assets/img/cfe-divisiones-2022-mapa-oficial.png",
+      "availability": "local",
+      "intendedMeaning": "representación oficial de las 16 divisiones",
+      "notEquivalentTo": [
+        "polígonos vectoriales",
+        "datos GIS georreferenciados"
+      ]
+    }
+  ],
+  "researchSources": [
+    {
+      "id": "cne_permits_2026",
+      "reference": "Comisión Nacional de Energía, lista de permisos de generación (2026)",
+      "url": "https://www.gob.mx/cne/documentos/estadisticas-e-informacion-en-materia-de-permisos-de-electricidad",
+      "scope": "tabla de permisos, tecnología, entidad y municipio; no es una capa geográfica de coordenadas verificadas ni se fusiona con CANIE",
+      "status": "fuente oficial adicional investigada; pendiente de integración y conciliación"
+    },
+    {
+      "id": "cenace_topology",
+      "reference": "CENACE, información de red y topología RNT",
+      "url": "https://www.cenace.gob.mx/MapaSitio.aspx",
+      "scope": "documentación topológica y diagramas; geometrías vectoriales públicas no verificadas para este proyecto",
+      "status": "no se dibujan líneas ni polígonos hipotéticos"
+    }
+  ]
+}

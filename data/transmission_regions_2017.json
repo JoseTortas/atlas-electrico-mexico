@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "title": "Ciudades sede históricas de gerencias regionales CFE Transmisión",
+    "referenceYear": 2017,
+    "documentPublicationYear": 2018,
+    "locationType": "CIUDAD (referencia urbana; NO ubicación de instalación)",
+    "sourceInstitution": "Comisión Federal de Electricidad",
+    "sourceDocument": "Plan de Negocios 2018–2022 CFE Transmisión, Anexo 1, Tabla A.1.1",
+    "printedPage": 58,
+    "sourceURL": "https://transmision.cfe.mx/Documents/PDN%20CFE-Transmision%202018-2022.pdf",
+    "geographicReference": "Coordenada pública de la localidad, no domicilio de la gerencia ni sitio de subestación",
+    "coordinateSourceURL": "https://en.wikipedia.org/wiki/List_of_cities_in_Mexico",
+    "coordinateAccuracy": "REFERENCIA URBANA; no representa un punto de instalación",
+    "caveat": "Los datos de infraestructura son agregados por región a diciembre de 2017; nunca corresponden al marcador de una instalación individual. La ubicación detallada de subestaciones y líneas se omite. Las filas suman 107,042.23 km y el total impreso es 107,042.22 km; discrepancia documental de 0.01 km."
+  },
+  "points": [
+    {
+      "id": "BC",
+      "region": "Baja California",
+      "city": "Mexicali",
+      "state": "Baja California",
+      "lat": 32.66333,
+      "lon": -115.46778,
+      "substations2017": 72,
+      "linesKm2017": 5195.28,
+      "kind": "ciudad_sede_referencia",
+      "isPhysicalInstallation": false,
+      "year": 2017
+    },
+    {
+      "id": "NO",
+      "region": "Noroeste",
+      "city": "Hermosillo",
+      "state": "Sonora",
+      "lat": 29.09889,
+      "lon": -110.95417,
+      "substations2017": 36,
+      "linesKm2017": 12579.19,
+      "kind": "ciudad_sede_referencia",
+      "isPhysicalInstallation": false,
+      "year": 2017
+    },
+    {
+      "id": "NT",
+      "region": "Norte",
+      "city": "Gómez Palacio",
+      "state": "Durango",
+      "lat": 25.56111,
+      "lon": -103.49833,
+      "substations2017": 37,
+      "linesKm2017": 12388.03,
+      "kind": "ciudad_sede_referencia",
+      "isPhysicalInstallation": false,
+      "year": 2017
+    },
+    {
+      "id": "NE",
+      "region": "Noreste",
+      "city": "Monterrey",
+      "state": "Nuevo León",
+      "lat": 25.67139,
+      "lon": -100.30861,
+      "substations2017": 46,
+      "linesKm2017": 10818.34,
+      "kind": "ciudad_sede_referencia",
+      "isPhysicalInstallation": false,
+      "year": 2017
+    },
+    {
+      "id": "OC",
+      "region": "Occidente",
+      "city": "Guadalajara",
+      "state": "Jalisco",
+      "lat": 20.67639,
+      "lon": -103.34222,
+      "substations2017": 90,
+      "linesKm2017": 19646.3,
+      "kind": "ciudad_sede_referencia",
+      "isPhysicalInstallation": false,
+      "year": 2017
+    },
+    {
+      "id": "CE",
+      "region": "Central",
+      "city": "Ciudad de México",
+      "state": "Ciudad de México",
+      "lat": 19.4325,
+      "lon": -99.13111,
+      "substations2017": 142,
+      "linesKm2017": 17733.81,
+      "kind": "ciudad_sede_referencia",
+      "isPhysicalInstallation": false,
+      "year": 2017
+    },
+    {
+      "id": "OR",
+      "region": "Oriente",
+      "city": "Veracruz",
+      "state": "Veracruz",
+      "lat": 19.19028,
+      "lon": -96.15333,
+      "substations2017": 31,
+      "linesKm2017": 12142.46,
+      "kind": "ciudad_sede_referencia",
+      "isPhysicalInstallation": false,
+      "year": 2017
+    },
+    {
+      "id": "SE",
+      "region": "Sureste",
+      "city": "Tuxtla Gutiérrez",
+      "state": "Chiapas",
+      "lat": 16.75306,
+      "lon": -93.11556,
+      "substations2017": 25,
+      "linesKm2017": 9556.37,
+      "kind": "ciudad_sede_referencia",
+      "isPhysicalInstallation": false,
+      "year": 2017
+    },
+    {
+      "id": "PE",
+      "region": "Peninsular",
+      "city": "Mérida",
+      "state": "Yucatán",
+      "lat": 20.96778,
+      "lon": -89.62167,
+      "substations2017": 28,
+      "linesKm2017": 6982.45,
+      "kind": "ciudad_sede_referencia",
+      "isPhysicalInstallation": false,
+      "year": 2017
+    }
+  ],
+  "official2017Totals": {
+    "substations": 507,
+    "linesKm": 107042.22
+  }
+}

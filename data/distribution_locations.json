@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "title": "Infraestructura CFE Distribución con coordenadas documentales",
+    "publishedIn": "Directorio de almacenes, Anexo 2, Licitación LPDGCT-0225 del 8 de enero de 2026",
+    "institution": "CFE Distribución, División Golfo Centro",
+    "year": 2026,
+    "sourceURL": "https://www.cfe.gob.mx/concursoscontratos/ventabienes/Documents/Muebles%202026/ANEXOS%20LPDGCT-0225.pdf",
+    "sourcePage": "Anexo 2, página 1",
+    "scope": "Instalaciones / almacenes de una sola división. NO representa la geografía de sus límites o redes. Los datos de los indicadores regionales son de 2022 y NO se asignan a cada instalación.",
+    "completeness": "9 ubicaciones de Golfo Centro; 15 divisiones sin coordenadas verificadas para instalaciones en el conjunto integrado."
+  },
+  "points": [
+    {
+      "id": "D128",
+      "name": "Almacén Divisional Golfo Centro",
+      "division": "Golfo Centro",
+      "locality": "Tampico",
+      "state": "Tamaulipas",
+      "lat": 22.31837048164888,
+      "lon": -97.86857464609245,
+      "address": "Antigua Carretera Tampico-Mante km 14, Col. Villa Hermosa, Tampico, Tamaulipas, C.P. 89319",
+      "facilityType": "Almacén de CFE Distribución",
+      "sourceURL": "https://www.cfe.gob.mx/concursoscontratos/ventabienes/Documents/Muebles%202026/ANEXOS%20LPDGCT-0225.pdf"
+    },
+    {
+      "id": "D129",
+      "name": "Almacén Zona Tampico",
+      "division": "Golfo Centro",
+      "locality": "Tampico",
+      "state": "Tamaulipas",
+      "lat": 22.254793412173765,
+      "lon": -97.86163727528945,
+      "address": "Prolongación Choapas s/n, Col. Petrolera, Tampico, Tamaulipas, C.P. 89110",
+      "facilityType": "Almacén de CFE Distribución",
+      "sourceURL": "https://www.cfe.gob.mx/concursoscontratos/ventabienes/Documents/Muebles%202026/ANEXOS%20LPDGCT-0225.pdf"
+    },
+    {
+      "id": "D130",
+      "name": "Almacén Zona Mante",
+      "division": "Golfo Centro",
+      "locality": "Ciudad Mante",
+      "state": "Tamaulipas",
+      "lat": 22.736624771147994,
+      "lon": -98.95955225258314,
+      "address": "Calle Síndicos s/n, Col. Carolina Yucatán, Ciudad Mante, Tamaulipas, C.P. 89867",
+      "facilityType": "Almacén de CFE Distribución",
+      "sourceURL": "https://www.cfe.gob.mx/concursoscontratos/ventabienes/Documents/Muebles%202026/ANEXOS%20LPDGCT-0225.pdf"
+    },
+    {
+      "id": "D131",
+      "name": "Almacén Zona Victoria",
+      "division": "Golfo Centro",
+      "locality": "Ciudad Victoria",
+      "state": "Tamaulipas",
+      "lat": 23.724703967472276,
+      "lon": -99.15935000969323,
+      "address": "Calzada General Luis Caballero s/n, Fracc. Zozaya, Ciudad Victoria, Tamaulipas, C.P. 87078",
+      "facilityType": "Almacén de CFE Distribución",
+      "sourceURL": "https://www.cfe.gob.mx/concursoscontratos/ventabienes/Documents/Muebles%202026/ANEXOS%20LPDGCT-0225.pdf"
+    },
+    {
+      "id": "D132",
+      "name": "Almacén Zona Matehuala",
+      "division": "Golfo Centro",
+      "locality": "Matehuala",
+      "state": "San Luis Potosí",
+      "lat": 23.664228804478793,
+      "lon": -100.64441489497648,
+      "address": "Miguel Hidalgo 323, Centro, Matehuala, San Luis Potosí, C.P. 78700",
+      "facilityType": "Almacén de CFE Distribución",
+      "sourceURL": "https://www.cfe.gob.mx/concursoscontratos/ventabienes/Documents/Muebles%202026/ANEXOS%20LPDGCT-0225.pdf"
+    },
+    {
+      "id": "D133",
+      "name": "Almacén Zona San Luis Potosí",
+      "division": "Golfo Centro",
+      "locality": "San Luis Potosí",
+      "state": "San Luis Potosí",
+      "lat": 22.15397911978481,
+      "lon": -100.9573522716182,
+      "address": "Carretera San Luis–Matehuala 97, Col. San Luis, San Luis Potosí, C.P. 78310",
+      "facilityType": "Almacén de CFE Distribución",
+      "sourceURL": "https://www.cfe.gob.mx/concursoscontratos/ventabienes/Documents/Muebles%202026/ANEXOS%20LPDGCT-0225.pdf"
+    },
+    {
+      "id": "D134",
+      "name": "Almacén Zona Río Verde",
+      "division": "Golfo Centro",
+      "locality": "Rioverde",
+      "state": "San Luis Potosí",
+      "lat": 21.92977850703168,
+      "lon": -100.0019095584789,
+      "address": "Blvd. Ferrocarrilero entre Bravo y Aldama s/n, Centro, Rioverde, San Luis Potosí, C.P. 79610",
+      "facilityType": "Almacén de CFE Distribución",
+      "sourceURL": "https://www.cfe.gob.mx/concursoscontratos/ventabienes/Documents/Muebles%202026/ANEXOS%20LPDGCT-0225.pdf"
+    },
+    {
+      "id": "D135",
+      "name": "Almacén Zona Valles",
+      "division": "Golfo Centro",
+      "locality": "Ciudad Valles",
+      "state": "San Luis Potosí",
+      "lat": 21.976546266011646,
+      "lon": -98.97573330206764,
+      "address": "Carretera Valles–Tampico km 3.5, Col. Real Campestre, Ciudad Valles, San Luis Potosí, C.P. 79060",
+      "facilityType": "Almacén de CFE Distribución",
+      "sourceURL": "https://www.cfe.gob.mx/concursoscontratos/ventabienes/Documents/Muebles%202026/ANEXOS%20LPDGCT-0225.pdf"
+    },
+    {
+      "id": "D136",
+      "name": "Almacén Zona Huejutla",
+      "division": "Golfo Centro",
+      "locality": "Huejutla",
+      "state": "Hidalgo",
+      "lat": 21.144798852350206,
+      "lon": -98.40846704536662,
+      "address": "Blvd. Adolfo López Mateos 187, Col. Aviación Civil, Huejutla, Hidalgo, C.P. 43000",
+      "facilityType": "Almacén de CFE Distribución",
+      "sourceURL": "https://www.cfe.gob.mx/concursoscontratos/ventabienes/Documents/Muebles%202026/ANEXOS%20LPDGCT-0225.pdf"
+    }
+  ]
+}

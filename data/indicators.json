@@ -1,0 +1,487 @@
+{
+  "metadata": {
+    "updated": "2026-11-06",
+    "method": "Cifras transcritas de documentos proporcionados; no representan series nacionales salvo cuando se especifica.",
+    "availability": "Las casillas sin evidencia muestran Dato no disponible."
+  },
+  "cfeNetGeneration": [
+    {
+      "year": 2022,
+      "value": 137133.0,
+      "unit": "GWh",
+      "scope": "Generación neta CFE",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 28,
+      "pdfPage": 31,
+      "institution": "CFE"
+    },
+    {
+      "year": 2023,
+      "value": 145172.1,
+      "unit": "GWh",
+      "scope": "Generación neta CFE",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 28,
+      "pdfPage": 31,
+      "institution": "CFE"
+    },
+    {
+      "year": 2024,
+      "value": 148775.4,
+      "unit": "GWh",
+      "scope": "Generación neta CFE",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 28,
+      "pdfPage": 31,
+      "institution": "CFE"
+    }
+  ],
+  "cfeParticipation": [
+    {
+      "year": 2022,
+      "value": 41.1,
+      "unit": "%",
+      "scope": "Participación de generación eléctrica atribuida a CFE",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 28,
+      "pdfPage": 31,
+      "institution": "CFE"
+    },
+    {
+      "year": 2023,
+      "value": 41.9,
+      "unit": "%",
+      "scope": "Participación de generación eléctrica atribuida a CFE",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 28,
+      "pdfPage": 31,
+      "institution": "CFE"
+    },
+    {
+      "year": 2024,
+      "value": 42.3,
+      "unit": "%",
+      "scope": "Participación de generación eléctrica atribuida a CFE",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 28,
+      "pdfPage": 31,
+      "institution": "CFE"
+    }
+  ],
+  "cfeNetCleanAndDiverseShare": [
+    {
+      "year": 2022,
+      "value": 36.0,
+      "unit": "%",
+      "scope": "Indicador CFE: energía neta generada con energías limpias y/o diversas",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 28,
+      "pdfPage": 31,
+      "institution": "CFE"
+    },
+    {
+      "year": 2023,
+      "value": 24.7,
+      "unit": "%",
+      "scope": "Indicador CFE: energía neta generada con energías limpias y/o diversas",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 28,
+      "pdfPage": 31,
+      "institution": "CFE"
+    },
+    {
+      "year": 2024,
+      "value": 25.9,
+      "unit": "%",
+      "scope": "Indicador CFE: energía neta generada con energías limpias y/o diversas",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 28,
+      "pdfPage": 31,
+      "institution": "CFE"
+    }
+  ],
+  "cleanGross2024": [
+    {
+      "name": "Hidroeléctrica",
+      "value": 22354.2,
+      "unit": "GWh",
+      "scope": "Generación bruta limpia CFE, 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 27,
+      "pdfPage": 30,
+      "institution": "CFE"
+    },
+    {
+      "name": "Nuclear",
+      "value": 12306.6,
+      "unit": "GWh",
+      "scope": "Generación bruta limpia CFE, 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 27,
+      "pdfPage": 30,
+      "institution": "CFE"
+    },
+    {
+      "name": "Geotérmica",
+      "value": 3692.5,
+      "unit": "GWh",
+      "scope": "Generación bruta limpia CFE, 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 27,
+      "pdfPage": 30,
+      "institution": "CFE"
+    },
+    {
+      "name": "Solar fotovoltaica",
+      "value": 554.9,
+      "unit": "GWh",
+      "scope": "Generación bruta limpia CFE, 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 27,
+      "pdfPage": 30,
+      "institution": "CFE"
+    },
+    {
+      "name": "Eólica",
+      "value": 74.7,
+      "unit": "GWh",
+      "scope": "Generación bruta limpia CFE, 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 27,
+      "pdfPage": 30,
+      "institution": "CFE"
+    }
+  ],
+  "cfeGrossTotal2024": {
+    "value": 154059,
+    "unit": "GWh",
+    "scope": "Generación bruta CFE 2024",
+    "source": "Informe Anual CFE 2024",
+    "printedPage": 27,
+    "pdfPage": 30,
+    "institution": "CFE"
+  },
+  "cfeGrossClean2024": {
+    "value": 38982.9,
+    "unit": "GWh",
+    "scope": "Generación bruta limpia CFE 2024",
+    "source": "Informe Anual CFE 2024",
+    "printedPage": 27,
+    "pdfPage": 30,
+    "institution": "CFE"
+  },
+  "lagunaVerde2024": {
+    "installedMW": {
+      "value": 1608,
+      "unit": "MW",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 64,
+      "pdfPage": 67,
+      "institution": "CFE"
+    },
+    "netTWh": {
+      "value": 11.98,
+      "unit": "TWh",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 63,
+      "pdfPage": 66,
+      "institution": "CFE"
+    },
+    "units": {
+      "value": 2,
+      "unit": "unidades",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 64,
+      "pdfPage": 67,
+      "institution": "CFE"
+    }
+  },
+  "prodesen2023": {
+    "capacity2022": {
+      "value": 92503,
+      "unit": "MW",
+      "scope": "Capacidad instalada neta México, año base 2022",
+      "source": "PRODESEN 2023-2037, Capítulo 4, Cuadro 4.1",
+      "printedPage": 52,
+      "pdfPage": 4,
+      "institution": "SENER"
+    },
+    "distributed2022": {
+      "value": 2613,
+      "unit": "MW",
+      "scope": "Generación distribuida 2022",
+      "source": "PRODESEN 2023-2037, Capítulo 4, Cuadro 4.1",
+      "printedPage": 52,
+      "pdfPage": 4,
+      "institution": "SENER"
+    },
+    "projected2037": {
+      "value": 157098,
+      "unit": "MW",
+      "scope": "Proyección al 2037, no dato observado",
+      "source": "PRODESEN 2023-2037, Capítulo 4, Cuadro 4.1",
+      "printedPage": 52,
+      "pdfPage": 4,
+      "institution": "SENER"
+    }
+  },
+  "transmission": {
+    "lengthKm": {
+      "value": 111138,
+      "unit": "km",
+      "scope": "Longitud de líneas CFE Transmisión, 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 76,
+      "pdfPage": 79,
+      "institution": "CFE"
+    },
+    "substations": {
+      "value": 2317,
+      "unit": "subestaciones",
+      "scope": "CFE Transmisión 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 76,
+      "pdfPage": 79,
+      "institution": "CFE"
+    },
+    "lengthSeries": [
+      {
+        "value": 110449,
+        "unit": "km",
+        "scope": "CFE Transmisión 2022",
+        "source": "Informe Anual CFE 2024",
+        "printedPage": 76,
+        "pdfPage": 79,
+        "institution": "CFE"
+      },
+      {
+        "value": 110558,
+        "unit": "km",
+        "scope": "CFE Transmisión 2023",
+        "source": "Informe Anual CFE 2024",
+        "printedPage": 76,
+        "pdfPage": 79,
+        "institution": "CFE"
+      },
+      {
+        "value": 111138,
+        "unit": "km",
+        "scope": "CFE Transmisión 2024",
+        "source": "Informe Anual CFE 2024",
+        "printedPage": 76,
+        "pdfPage": 79,
+        "institution": "CFE"
+      }
+    ],
+    "transformation": {
+      "value": 168981,
+      "unit": "unidad no explícita en tabla",
+      "scope": "Capacidad de transformación CFE Transmisión 2024; unidad por corroborar",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 76,
+      "pdfPage": 79,
+      "institution": "CFE"
+    },
+    "importGWh": {
+      "value": 2167,
+      "unit": "GWh",
+      "scope": "Importación transportada RNT 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 90,
+      "pdfPage": 93,
+      "institution": "CFE"
+    },
+    "exportGWh": {
+      "value": 2562,
+      "unit": "GWh",
+      "scope": "Exportación transportada RNT 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 90,
+      "pdfPage": 93,
+      "institution": "CFE"
+    },
+    "nominalKv": {
+      "value": 400,
+      "unit": "kV",
+      "scope": "Extremo superior de 69–400 kV reportado para RNT",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 90,
+      "pdfPage": 93,
+      "institution": "CFE"
+    },
+    "rntMva2023": {
+      "value": 113688,
+      "unit": "MVA",
+      "scope": "Bancos de transformación RNT 2023, total nacional según PRODESEN; no dato CFE 2024",
+      "source": "PRODESEN 2024-2038, Anexo 1, Cuadro A1.2",
+      "printedPage": 157,
+      "institution": "SENER"
+    }
+  },
+  "distribution": {
+    "users": {
+      "value": 49.1,
+      "unit": "millones de usuarios",
+      "scope": "Usuarios atendidos por CFE Distribución, 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 95,
+      "pdfPage": 98,
+      "institution": "CFE"
+    },
+    "lengthKm": {
+      "value": 901000,
+      "unit": "km (aproximado)",
+      "scope": "CFE describe 901 mil kilómetros de RGD",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 95,
+      "pdfPage": 98,
+      "institution": "CFE"
+    },
+    "lossesPct": {
+      "value": 10.69,
+      "unit": "%",
+      "scope": "Pérdidas de energía CFE Distribución, incluye alta tensión, 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 96,
+      "pdfPage": 99,
+      "institution": "CFE"
+    },
+    "lossesMTBT": {
+      "value": 12.88,
+      "unit": "%",
+      "scope": "Pérdidas de energía CFE Distribución, MT+BT, 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 96,
+      "pdfPage": 99,
+      "institution": "CFE"
+    },
+    "divisions": {
+      "value": 16,
+      "unit": "divisiones",
+      "scope": "CFE Distribución 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 95,
+      "pdfPage": 98,
+      "institution": "CFE"
+    },
+    "zones": {
+      "value": 150,
+      "unit": "zonas",
+      "scope": "CFE Distribución 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 95,
+      "pdfPage": 98,
+      "institution": "CFE"
+    },
+    "substations": {
+      "value": 2157,
+      "unit": "subestaciones",
+      "scope": "CFE Distribución 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 97,
+      "pdfPage": 100,
+      "institution": "CFE"
+    },
+    "mediumKm": {
+      "value": 555336,
+      "unit": "km",
+      "scope": "Líneas de media tensión 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 97,
+      "pdfPage": 100,
+      "institution": "CFE"
+    },
+    "lowKm": {
+      "value": 345966,
+      "unit": "km",
+      "scope": "Líneas de baja tensión 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 97,
+      "pdfPage": 100,
+      "institution": "CFE"
+    },
+    "electrification": {
+      "value": 99.64,
+      "unit": "%",
+      "scope": "Electrificación reportada 2024",
+      "source": "Informe Anual CFE 2024",
+      "printedPage": 96,
+      "pdfPage": 99,
+      "institution": "CFE"
+    },
+    "lossesSeries": [
+      {
+        "value": 11.05,
+        "unit": "%",
+        "scope": "Pérdidas incl. alta tensión 2022",
+        "source": "Informe Anual CFE 2024",
+        "printedPage": 96,
+        "pdfPage": 99,
+        "institution": "CFE"
+      },
+      {
+        "value": 10.86,
+        "unit": "%",
+        "scope": "Pérdidas incl. alta tensión 2023",
+        "source": "Informe Anual CFE 2024",
+        "printedPage": 96,
+        "pdfPage": 99,
+        "institution": "CFE"
+      },
+      {
+        "value": 10.69,
+        "unit": "%",
+        "scope": "Pérdidas incl. alta tensión 2024",
+        "source": "Informe Anual CFE 2024",
+        "printedPage": 96,
+        "pdfPage": 99,
+        "institution": "CFE"
+      }
+    ],
+    "continuity": {
+      "SAIDI": {
+        "2022": 19.248,
+        "2023": 17.788,
+        "2024": 16.708
+      },
+      "SAIFI": {
+        "2022": 0.411,
+        "2023": 0.391,
+        "2024": 0.375
+      },
+      "source": "CFE Informe Anual 2024, p.96 (PDF p.99)",
+      "scope": "CFE Distribución; indicadores nacionales de frecuencia y duración por usuario; no por división."
+    },
+    "distributionTransformers": {
+      "value": 1660977,
+      "unit": "unidades",
+      "source": "CFE Informe Anual 2024",
+      "printedPage": 97,
+      "pdfPage": 100,
+      "institution": "CFE"
+    },
+    "transformerCapacity": {
+      "value": 60912,
+      "unit": "MVA",
+      "source": "CFE Informe Anual 2024",
+      "printedPage": 97,
+      "pdfPage": 100,
+      "institution": "CFE"
+    }
+  },
+  "national2022": {
+    "year": 2022,
+    "generationGWh": 340713,
+    "fossilPercent": 68.8,
+    "cleanPercent": 31.2,
+    "unitGeneration": "GWh",
+    "unitShare": "%",
+    "scope": "Sistema Eléctrico Nacional, total nacional, 2022 (fósil vs limpia; limpia no equivale necesariamente a renovable)",
+    "institution": "SENER",
+    "source": "PRODESEN 2023-2037, capítulo 4, sección 4.2.4, Figuras 4.9 y 4.10",
+    "printedPage": 59,
+    "pdfPage": 11,
+    "dataType": "Observado publicado, método de energías limpias conforme al Acuerdo A/018/2023",
+    "methodologyNote": "La SENER advierte modificaciones metodológicas para medir energías limpias. Las participaciones están redondeadas a una cifra decimal. No se calculan GWh desagregados con falsa precisión."
+  }
+}

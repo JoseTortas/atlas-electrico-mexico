@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "institution": "SENER",
+    "document": "Plan de Desarrollo del Sector Eléctrico 2025-2039",
+    "publication": "Diario Oficial de la Federación, 17 de octubre de 2025",
+    "publicationDate": "2025-10-17",
+    "table": "Tabla 2.2. Generación neta inyectada por tecnología 2010-2024",
+    "printedPage": 21,
+    "pdfPage": 20,
+    "unit": "GWh",
+    "sourceURL": "https://sidof.segob.gob.mx/notas/docFuente/5770297",
+    "dataType": "observado publicado en 2025",
+    "scope": "Generación neta inyectada al Sistema Eléctrico Nacional (SEN); excluye generación distribuida y autoabasto local.",
+    "notes": [
+      "Se conservan las 12 categorías de tecnología de la Tabla 2.2: no se infiere el combustible específico de cada instalación.",
+      "Cogeneración eficiente figura dentro de energías limpias normativas, no se considera necesariamente renovable.",
+      "La tabla contiene valores redondeados a GWh enteros. Sus sumas coinciden con los totales publicados en 2022, 2023 y 2024.",
+      "La fuente es posterior a los informes CFE 2024 y PRODESEN 2023-2037; se mantiene sin sobrescribirlos."
+    ]
+  },
+  "years": [
+    2022,
+    2023,
+    2024
+  ],
+  "totals": {
+    "2022": {
+      "generationGWh": 333964,
+      "cleanGWh": 89109,
+      "fossilGWh": 244855
+    },
+    "2023": {
+      "generationGWh": 346501,
+      "cleanGWh": 80358,
+      "fossilGWh": 266143
+    },
+    "2024": {
+      "generationGWh": 352305,
+      "cleanGWh": 82426,
+      "fossilGWh": 269879
+    }
+  },
+  "technologies": [
+    {
+      "id": "coal",
+      "name": "Carboeléctrica",
+      "category": "fosil",
+      "generationGWh": {
+        "2022": 14194,
+        "2023": 14230,
+        "2024": 12968
+      }
+    },
+    {
+      "id": "conventional",
+      "name": "Térmica convencional",
+      "category": "fosil",
+      "generationGWh": {
+        "2022": 20001,
+        "2023": 30358,
+        "2024": 28228
+      }
+    },
+    {
+      "id": "internal",
+      "name": "Combustión interna",
+      "category": "fosil",
+      "generationGWh": {
+        "2022": 1834,
+        "2023": 3621,
+        "2024": 3847
+      }
+    },
+    {
+      "id": "turbogas",
+      "name": "Turbogás",
+      "category": "fosil",
+      "generationGWh": {
+        "2022": 10471,
+        "2023": 12336,
+        "2024": 12017
+      }
+    },
+    {
+      "id": "combined",
+      "name": "Ciclo combinado",
+      "category": "fosil",
+      "generationGWh": {
+        "2022": 198355,
+        "2023": 205598,
+        "2024": 212819
+      }
+    },
+    {
+      "id": "nuclear",
+      "name": "Nucleoeléctrica",
+      "category": "limpia_no_renovable",
+      "generationGWh": {
+        "2022": 10539,
+        "2023": 12043,
+        "2024": 11978
+      }
+    },
+    {
+      "id": "cogeneration",
+      "name": "Cogeneración eficiente",
+      "category": "limpia_segun_normativa",
+      "generationGWh": {
+        "2022": 1376,
+        "2023": 4136,
+        "2024": 3912
+      }
+    },
+    {
+      "id": "hydro",
+      "name": "Hidroeléctrica",
+      "category": "renovable",
+      "generationGWh": {
+        "2022": 35561,
+        "2023": 20609,
+        "2024": 23800
+      }
+    },
+    {
+      "id": "geothermal",
+      "name": "Geotérmica",
+      "category": "renovable",
+      "generationGWh": {
+        "2022": 4412,
+        "2023": 4161,
+        "2024": 3576
+      }
+    },
+    {
+      "id": "wind",
+      "name": "Eólica",
+      "category": "renovable",
+      "generationGWh": {
+        "2022": 20314,
+        "2023": 20700,
+        "2024": 19987
+      }
+    },
+    {
+      "id": "solar",
+      "name": "Solar fotovoltaica",
+      "category": "renovable",
+      "generationGWh": {
+        "2022": 16290,
+        "2023": 18210,
+        "2024": 18640
+      }
+    },
+    {
+      "id": "bio",
+      "name": "Bioenergía",
+      "category": "renovable",
+      "generationGWh": {
+        "2022": 617,
+        "2023": 499,
+        "2024": 533
+      }
+    }
+  ]
+}

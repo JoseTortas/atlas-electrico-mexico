@@ -1,0 +1,107 @@
+/*
+ * MAP-001 / local layout stylesheet for Leaflet 1.9.x.
+ * Leaflet's JS positions tiles with CSS transforms. Without the corresponding
+ * positioning rules, tiles appear as disconnected 256px squares.
+ * This file is intentionally served by the project itself, not a CDN.
+ * Includes the layout/control rules used by our base maps (no marker imagery).
+ */
+.leaflet-container {
+  position: relative;
+  overflow: hidden;
+  background: #102738;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.leaflet-container.leaflet-touch-zoom { touch-action: pan-x pan-y; }
+.leaflet-container.leaflet-touch-drag { touch-action: none; touch-action: pinch-zoom; }
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom { touch-action: none; }
+.leaflet-pane,
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-tile-container,
+.leaflet-pane > svg,
+.leaflet-pane > canvas,
+.leaflet-zoom-box,
+.leaflet-image-layer,
+.leaflet-layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.leaflet-pane { z-index: 400; }
+.leaflet-tile-pane { z-index: 200; }
+.leaflet-overlay-pane { z-index: 400; }
+.leaflet-shadow-pane { z-index: 500; }
+.leaflet-marker-pane { z-index: 600; }
+.leaflet-tooltip-pane { z-index: 650; }
+.leaflet-popup-pane { z-index: 700; }
+.leaflet-map-pane canvas { z-index: 100; }
+.leaflet-map-pane svg { z-index: 200; }
+.leaflet-container .leaflet-tile,
+.leaflet-container .leaflet-marker-icon,
+.leaflet-container .leaflet-marker-shadow {
+  max-width: none !important;
+  max-height: none !important;
+}
+.leaflet-container .leaflet-tile {
+  visibility: hidden;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+.leaflet-container .leaflet-tile-loaded { visibility: inherit; }
+.leaflet-zoom-animated { transform-origin: 0 0; }
+.leaflet-zoom-hide { visibility: hidden; }
+.leaflet-interactive { cursor: pointer; }
+.leaflet-grab { cursor: grab; }
+.leaflet-grab.leaflet-grabbed { cursor: grabbing; }
+.leaflet-dragging .leaflet-grab { cursor: grabbing; }
+.leaflet-container a { color: #0078a8; }
+.leaflet-container a.leaflet-active { outline: 2px solid orange; }
+.leaflet-container .leaflet-control-attribution a { color: #075c8a; }
+.leaflet-container .leaflet-control { position: relative; z-index: 800; pointer-events: auto; }
+.leaflet-top,
+.leaflet-bottom { position: absolute; z-index: 1000; pointer-events: none; }
+.leaflet-top { top: 0; }
+.leaflet-right { right: 0; }
+.leaflet-bottom { bottom: 0; }
+.leaflet-left { left: 0; }
+.leaflet-control { float: left; clear: both; }
+.leaflet-right .leaflet-control { float: right; }
+.leaflet-top .leaflet-control { margin-top: 10px; }
+.leaflet-bottom .leaflet-control { margin-bottom: 10px; }
+.leaflet-left .leaflet-control { margin-left: 10px; }
+.leaflet-right .leaflet-control { margin-right: 10px; }
+.leaflet-control-zoom,
+.leaflet-bar { border: 2px solid rgba(0,0,0,.2); background-clip: padding-box; border-radius: 5px; }
+.leaflet-bar a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  color: #252525;
+  font: bold 20px/30px Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+.leaflet-bar a:first-child { border-top-left-radius: 3px; border-top-right-radius: 3px; }
+.leaflet-bar a:last-child { border-bottom: none; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; }
+.leaflet-bar a:hover, .leaflet-bar a:focus { background-color: #f4f4f4; }
+.leaflet-bar a.leaflet-disabled { color: #bbb; background: #f4f4f4; cursor: default; }
+.leaflet-touch .leaflet-bar a { width: 30px; height: 30px; line-height: 30px; }
+.leaflet-control-attribution,
+.leaflet-control-scale-line { padding: 2px 6px; color: #2b3337; background: rgba(255,255,255,.82); }
+.leaflet-control-attribution { font-size: 10px; line-height: 1.45; }
+.leaflet-control-attribution a { text-decoration: none; }
+.leaflet-control-attribution a:hover { text-decoration: underline; }
+.leaflet-control-container .leaflet-control-attribution { margin: 0; }
+.leaflet-control-container .leaflet-bottom.leaflet-right { right: 0; }
+.leaflet-fade-anim .leaflet-popup { opacity: 0; transition: opacity .2s linear; }
+.leaflet-fade-anim .leaflet-map-pane .leaflet-popup { opacity: 1; }
+.leaflet-container .leaflet-overlay-pane svg,
+.leaflet-container .leaflet-overlay-pane canvas { max-width: none !important; max-height: none !important; }

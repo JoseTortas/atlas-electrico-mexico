@@ -1,0 +1,11 @@
+NEXUS ENERGY · Auditoría de centrales · Alpha 0.16
+Se revisan por separado inventarios de 2023 y 2017. No se asume equivalencia entre registros ni capacidad actual.
+
+PRODESEN 2024–2038, cuadro A1.9 (registro correspondiente a 2023): 31 centrales en 18 entidades; 6 tecnologías explícitas.
+Tecnologías: Carboeléctrica, Ciclo combinado, Geotérmica, Hidroeléctrica, Nucleoeléctrica, Termoeléctrica convencional.
+Capacidad individual disponible: 1 registros; coordenadas individuales documentadas en este catálogo: 0.
+CONCLUSIÓN PRODESEN: documenta tecnologías, pero no constituye por sí solo una capa de puntos georreferenciada.
+PENDIENTE CANIE all: no existe un snapshot local. Ejecuta npm run sync:geo con Internet para capturar el inventario histórico.
+PENDIENTE CANIE renewable: no existe un snapshot local. Ejecuta npm run sync:geo con Internet para capturar el inventario histórico.
+
+SITUACIÓN: tampoco se deben presentar ciudades sede de CFE Transmisión como subestaciones ni límites estatales INEGI como divisiones CFE.

@@ -1,0 +1,136 @@
+.panel{background:linear-gradient(145deg,#101f2c,#0c1a27);border:1px solid var(--border);border-radius:var(--radius);padding:22px;min-width:0}.panel h3{font-size:15px;margin:0 0 7px}.panel p{color:#9fb5c7;font-size:12px}.metric{padding:24px 21px;background:linear-gradient(145deg,#0d2333,#0d1a28);border:1px solid #244057;border-radius:15px}.metric .label{font-size:11px;color:#9eb4c5;line-height:1.5}.metric .value{font-size:clamp(21px,2.35vw,31px);font-weight:800;letter-spacing:-1px;margin:12px 0 6px;line-height:1.1}.metric .detail{font-size:10px;color:#7795a8}.metric .micro{color:#45c5ff;font-size:10px;letter-spacing:.6px;margin-top:9px}.metric .value.null{font-size:21px;color:#9babb8}.chart{width:100%;min-height:235px;display:flex;flex-direction:column;justify-content:center;gap:17px}.bar-row{display:grid;grid-template-columns:minmax(110px,170px) 1fr auto;gap:15px;align-items:center;font-size:12px}.bar-label{color:#adbfcc;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.bar-track{height:12px;border-radius:15px;background:#1c3041;overflow:hidden}.bar-fill{height:100%;background:linear-gradient(90deg,#0074c5,#00A6FF);border-radius:15px;min-width:1px;transition:width .3s}.bar-number{font-variant-numeric:tabular-nums;color:#e9f7ff;font-weight:700;min-width:65px;text-align:right}.chart-caption{font-size:11px;color:#829caf}.mini-stat{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #253a4e;padding:11px 0;font-size:12px;gap:12px}.mini-stat strong{color:#e9f5fd}.mini-stat span{color:#a2bac8}.overview-links{margin-top:16px}.module-card{border:1px solid #254256;background:linear-gradient(150deg,#122436,#0b1b29);border-radius:16px;padding:25px;text-align:left;color:#effaff;min-height:180px;display:flex;flex-direction:column;align-items:flex-start;gap:13px}.module-card:hover{border-color:#00A6FF;transform:translateY(-2px)}.module-card .index{font-weight:900;color:var(--blue);font-size:12px}.module-card .title{font-size:19px;font-weight:800}.module-card .description{font-size:11px;line-height:1.6;color:#96aec0}.module-card .arrow{margin-top:auto;color:#59c5ff;font-size:22px}.tabs{display:flex;gap:8px;flex-wrap:wrap}.tab{border:1px solid #345064;color:#a7c0cf;background:#102232;padding:8px 14px;border-radius:8px;font-size:11px}.tab.active{background:#0b4264;color:#fff;border-color:#048bd4}.resource-card{border:1px solid #28465b;padding:16px;background:#101f2d;border-radius:12px;display:flex;flex-direction:column;gap:9px}.resource-card .resource-name{font-weight:800;font-size:14px}.resource-card .resource-desc{font-size:11px;color:#99b2c3;line-height:1.55}.resource-card .choice{width:100%}.resource-card.correct{border-color:var(--good)}.resource-card.incorrect{border-color:#d69b75}.feedback{font-size:11px;min-height:25px;color:#afc8d6}.process{display:flex;align-items:stretch;gap:10px;flex-wrap:wrap}.step{flex:1;min-width:110px;background:#0c283b;border:1px solid #275775;color:#c0e9ff;padding:14px 13px;border-radius:10px;font-size:12px}.step:hover,.step.active{background:#095484;border-color:#00a6ff;color:white}.step-arrow{align-self:center;color:#168fd6}.compare-item{display:flex;gap:8px;align-items:center;margin:8px 0;color:#c8deeb;font-size:12px}.compare-item input{accent-color:var(--blue)}.compare-table{width:100%;border-collapse:collapse;font-size:11px}.compare-table td,.compare-table th{padding:11px 13px;text-align:left;border-bottom:1px solid #234055;vertical-align:top}.compare-table th{color:#6fd0ff}.scroll-x{overflow-x:auto}.question{padding:17px;background:#0c2030;border:1px solid #2a4256;border-radius:12px;margin-top:12px}.question h3{margin:0 0 11px}.question button{display:block;width:100%;margin:6px 0;text-align:left}.answer{font-size:12px;margin-top:10px;min-height:22px}.map{height:340px;border-radius:13px;overflow:hidden;border:1px solid #294b63;z-index:0;background:radial-gradient(circle,#163753,#07131c)}.leaflet-container{background:#0f2638}.map-overlay{margin-top:10px}.sim-result{display:flex;flex-direction:column;gap:5px;padding:14px 16px;border:1px solid #27516c;border-radius:10px;background:#0b2940}.sim-result b{font-size:21px;color:#fff;font-variant-numeric:tabular-nums}.sim-result span{font-size:11px;color:#a1bfd2}.facts-filter{display:flex;gap:6px;flex-wrap:wrap}.fact-card{min-height:175px}.fact-card .fact-category{font-size:10px;color:var(--blue);letter-spacing:1px}.fact-card .fact-value{font-size:22px;font-weight:900;margin:11px 0}.fact-card p{font-size:11px;margin:9px 0}.timeline{border-left:2px solid #176b9e;margin-left:9px;padding-left:22px}.timeline-item{position:relative;margin-bottom:22px;padding:15px 18px;background:#0e2233;border:1px solid #264459;border-radius:13px}.timeline-item:before{content:"";position:absolute;left:-29px;top:20px;width:11px;height:11px;border-radius:50%;background:#00A6FF}.timeline-item strong{color:#79d1ff;font-size:12px}.timeline-item p{font-size:12px;margin-bottom:4px}.timeline-item small{color:#8da9ba}.svgbars{width:100%;height:auto;max-height:265px}.axis-label{font-size:11px;fill:#a4b9c9}.value-label{font-size:11px;fill:#f2f9ff;font-weight:700}.overview-line{margin-top:27px;border-top:1px solid #1e3649;padding-top:16px}
+/* MAP-001: clipping belongs on the map container, never on individual tiles. */
+.map.leaflet-container { width: 100%; position: relative; overflow: hidden; }
+.map .leaflet-tile { max-width: none !important; max-height: none !important; }
+.map-load-notice { margin-top: 10px; padding: 12px 15px; border-left: 3px solid var(--warning); border-radius: 0 9px 9px 0; background: #26231d; color: #ecd8b2; font-size: 12px; }
+.map-load-notice[hidden] { display: none; }
+/* Alpha 0.5: searchable documentary catalogue and distribution directory. */
+.catalog-controls{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:12px;align-items:end;margin:10px 0 22px}
+.catalog-controls .field{min-width:0}.catalog-count{font-size:12px;color:#8fd5fa;margin-bottom:13px}
+.catalog-table{min-width:750px}.catalog-table strong{font-size:12px;color:#eaf7ff}.catalog-table td{min-width:115px}
+.catalog-table td:first-child{min-width:230px}.catalog-table a{color:#70cfff;text-decoration:underline;text-underline-offset:3px}
+.catalog-sub{display:block;color:#8fa6b6;font-size:10px;margin-top:5px}
+.division-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:15px 0 18px}
+.division-chip{background:#102e41;border:1px solid #28526d;border-radius:9px;padding:10px 12px;font-size:12px;color:#d2ecfa}
+.section-mini-title{margin-top:24px !important}.system-list{margin:12px 0}
+@media(max-width:1250px){.catalog-controls{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.catalog-controls,.division-grid{grid-template-columns:1fr}}
+
+/* Respetar el atributo hidden incluso en contenedores display:grid. */
+.catalog-controls[hidden]{display:none!important}
+#naceiStatus{margin:12px 0 18px;color:#94bed1}
+#naceiResults{margin-top:13px}
+
+/* Alpha 0.7: inventario geográfico oficial CANIE/NACEI, histórico 2017 */
+.map-tall{height:410px}
+.geo-action{align-self:end;min-height:43px;white-space:normal}
+.geo-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:18px 0 8px}
+.geo-metrics>div{padding:14px;background:#10283b;border:1px solid #28516c;border-radius:11px;display:flex;flex-direction:column;gap:5px}
+.geo-metrics strong{color:#e8f8ff;font-size:clamp(18px,2.3vw,25px);line-height:1.2}
+.geo-metrics span{color:#9fbdcd;font-size:11px}
+.geo-origin{color:#74bddc!important;margin:-6px 0 14px!important}
+#naceiChart{padding:12px 0 8px}#naceiChart h3{margin:8px 0 16px}
+.geo-source-chart{display:grid;gap:8px}.geo-source-row{display:grid;grid-template-columns:minmax(120px,200px) 1fr 40px;gap:12px;align-items:center;color:#c6e0f0;font-size:12px}
+.geo-source-row>span{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.geo-source-row strong{text-align:right;font-variant-numeric:tabular-nums}
+.geo-source-track{height:10px;border-radius:8px;background:#233749;overflow:hidden}.geo-source-track>div{height:100%;border-radius:8px}
+.geo-locate{padding:7px 12px;border-radius:7px;border:1px solid #3087b1;background:#133e58;color:#c7eaff;cursor:pointer}
+.geo-locate:hover,.geo-locate:focus-visible{background:#0a6fa5;color:#fff}
+@media(max-width:660px){.geo-metrics{grid-template-columns:1fr}.geo-source-row{grid-template-columns:95px 1fr 30px;gap:7px}.map-tall{height:340px}}
+
+/* Alpha 0.8 · CFE observaciones regionales y SENER escenarios */
+.region-tools{justify-content:space-between;margin-bottom:14px}.region-search{flex:1;min-width:140px}.region-tools .button{white-space:normal;text-align:center}
+.regional-table{border-collapse:collapse;width:100%;font-size:12px}.regional-table th{color:#94bcd4;font-size:11px;text-align:left;border-bottom:1px solid #3d5a6e;padding:10px 8px}.regional-table td{padding:11px 8px;border-bottom:1px solid #21384a;color:#dcebf8}.regional-table td:last-child,.regional-table th:last-child{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}.regional-table tbody tr:hover{background:#12314a}
+.regional-table-wrap{min-height:358px;overflow-x:auto}.table-pagination{justify-content:space-between;margin:16px 0}.table-pagination button:disabled{opacity:.35;cursor:not-allowed}.regional-focus{margin-top:18px}.regional-focus h3{margin:12px 0}.regional-mini{padding:12px;border:1px solid #26445a;border-radius:9px;background:#0b2539;display:flex;flex-direction:column;gap:4px}.regional-mini span{color:#98b6ca;font-size:11px}.regional-mini strong{font-size:13px;color:#e3f3ff}
+@media (max-width:640px){.region-tools{align-items:stretch}.regional-table-wrap{min-height:355px}.regional-mini{padding:10px}.regional-table{font-size:11px}}
+
+/* Alpha 0.9 · capas informativas sobre cartografía base, con acceso a figuras institucionales sin georreferenciar. */
+.map-modes{display:flex;gap:7px;margin:0 0 12px;flex-wrap:wrap}
+.map-mode{padding:9px 14px;color:#a8c7d9;background:#0d2334;border:1px solid #31536b;border-radius:9px;font-size:12px;cursor:pointer}
+.map-mode.active,.map-mode:hover,.map-mode:focus-visible{background:#103c60;color:#f3fbff;border-color:#00a6ff}
+.geo-map-base[hidden],.official-document[hidden]{display:none!important}
+.map-with-readout{position:relative;isolation:isolate}
+.map-data-readout{position:absolute;z-index:600;right:11px;top:11px;padding:13px 14px;background:#091b2bf2;border:1px solid #2c6b8e;border-radius:10px;max-width:min(260px,50%);pointer-events:none;box-shadow:0 6px 22px #00101b99;display:flex;flex-direction:column;gap:5px}
+.map-data-readout .map-readout-kicker{color:#42c3f6;font-size:9px;letter-spacing:1.1px;font-weight:700}
+.map-data-readout b{color:#eaf6ff;font-size:13px}
+.map-data-readout strong{color:#e3f6ff;font-size:17px;font-variant-numeric:tabular-nums}
+.map-data-readout small{color:#abc4d4;font-size:10px;line-height:1.35}
+.official-document{min-height:450px;border:1px solid #2b526d;border-radius:12px;background:#0a1e2d;padding:12px}
+.official-document iframe{width:100%;height:420px;border:0;background:#fff;border-radius:7px;display:block}
+.source-map-label{color:#66bdf2;font-size:10px;letter-spacing:1.2px;font-weight:700;margin:0 0 10px}
+.official-document .reference-link{display:inline-block;margin-top:6px;color:#91d6ff;font-weight:700}
+.official-document p{margin:10px 0 4px}
+@media(max-width:650px){.map-data-readout{right:6px;top:6px;max-width:58%;padding:9px}.map-data-readout strong{font-size:14px}.official-document iframe{height:330px}.official-document{min-height:0}.map-mode{font-size:11px;padding:9px}}
+
+/* Alpha 0.10: source-grounded CFE facility points. No geographic polygons inferred. */
+.facilities-tools{display:flex;align-items:center;gap:12px;justify-content:space-between;flex-wrap:wrap;margin:12px 0 8px}
+.facilities-tools .map-mode{border-color:#0079ba;color:#d6efff}
+.facilities-tools .map-mode:disabled{opacity:.48;cursor:not-allowed}
+.facility-head{display:flex;justify-content:space-between;gap:10px;color:#a7d9f6;font-size:11px;letter-spacing:.3px;font-weight:700;margin:10px 0 8px}
+.facility-sample{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:7px}
+.facility-item{text-align:left;cursor:pointer;border:1px solid #28516c;border-radius:8px;background:#0d2a3d;color:#d7f0fc;padding:9px;display:flex;flex-direction:column;gap:3px;min-width:0}
+.facility-item strong{font-size:11px;overflow-wrap:anywhere}
+.facility-item span{font-size:10px;color:#a6c8d9}
+.facility-item:hover,.facility-item:focus-visible{outline:1px solid #00a6ff;background:#103a58}
+.facility-more{margin-top:8px;border:1px solid #294962;padding:8px 10px;border-radius:8px;color:#aad8f4}
+.facility-more summary{cursor:pointer;font-size:11px}
+.facility-more .facility-sample{margin-top:9px}
+.facility-popup p{margin:5px 0;line-height:1.45}
+.facility-popup strong{font-size:13px}
+.facility-popup a{font-weight:700;color:#006fc0}
+.reference-title{display:flex;flex-direction:column;gap:5px;margin:12px 0}
+.reference-kicker{font-size:10px;color:#57c9ff;font-weight:700;letter-spacing:1px}
+.reference-title strong{font-size:16px;color:#e2f4ff}
+.reference-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin:10px 0 15px}
+.reference-division{min-width:0;padding:9px 8px;display:flex;gap:7px;align-items:center;background:#112f44;border:1px solid #29536d;border-radius:8px;font-size:11px;color:#e0f3ff}
+.reference-division span{font-weight:700;color:#45c0f8;font-variant-numeric:tabular-nums}
+@media(max-width:500px){.reference-grid{grid-template-columns:1fr}.facilities-tools{align-items:flex-start}}
+
+/* In-project source image from the user's CFE annual PDF, p. 140 printed. */
+.cfe-original-figure{margin:8px 0 14px;background:#ffffff;border-radius:9px;overflow:hidden;padding:7px}
+.cfe-original-figure img{display:block;width:100%;height:auto;object-fit:contain;background:#fff}
+.cfe-original-figure figcaption{font-size:10px;line-height:1.45;color:#385063;padding:6px 8px 4px}
+.reference-details{border:1px solid #284d64;padding:8px 10px;border-radius:8px;margin-bottom:12px;color:#a9d5ec}
+.reference-details summary{font-size:12px;cursor:pointer}
+
+/* Alpha 0.11: markers are city-level regional references, never grid installations. */
+.nexus-trans-city{cursor:pointer}
+#transRegionCityChart .chart{min-height:250px}
+#transRegionCityPreview{margin-top:11px}
+#transRegionCityPreview .facility-item{font-size:11px}
+#transRegionCityFit:disabled{opacity:.45;cursor:not-allowed}
+
+/* Alpha 0.12: los minigráficos deben ser legibles dentro de una tarjeta a 4 columnas. */
+.fact-card .chart{gap:11px;margin-top:12px;min-height:0}
+.fact-card .bar-row{grid-template-columns:minmax(0,1fr) auto;column-gap:8px;row-gap:6px}
+.fact-card .bar-label{white-space:normal;overflow:visible;text-overflow:clip;min-width:0;font-size:11px}
+.fact-card .bar-number{min-width:0;font-size:11px}
+.fact-card .bar-track{grid-column:1 / -1;grid-row:2;height:9px}
+.fact-card .bar-number small{font-size:9px;font-weight:500}
+.fact-card .source{overflow-wrap:anywhere}
+
+/* Alpha 0.13 | Serie nacional SENER */
+.national-controls{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:15px 0 23px}
+.national-controls input{width:100%;background:#0b1b29;border:1px solid #365166;color:white;border-radius:8px;padding:10px 11px}
+.national-table{min-width:465px;margin-top:12px}.national-table strong{color:#e8f7ff}
+.national-pagination{display:flex;align-items:center;justify-content:flex-end;gap:10px;margin-top:12px;font-size:11px;color:#abc4d6}
+.national-pagination button:disabled{opacity:.3;cursor:not-allowed}
+#nationalChart .chart{gap:12px;min-height:260px}
+#nationalChart .bar-row{grid-template-columns:minmax(105px,150px) minmax(45px,1fr) minmax(75px,max-content);gap:10px}
+#nationalChart .bar-label{white-space:normal;overflow:visible;text-overflow:clip;line-height:1.25}
+#nationalFilteredSummary .mini-stat{font-size:11px}
+@media(max-width:1180px){.national-controls{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.national-controls{grid-template-columns:1fr}#nationalChart .bar-row{grid-template-columns:110px minmax(45px,1fr) 66px;gap:5px;font-size:10px}#nationalChart .bar-number{min-width:0}#nationalChart .bar-number small{display:none}}
+/* Avoid intrinsic min-content overflow in the detailed national chart on narrow screens. */
+#nationalGenerationSection .grid-2,#nationalGenerationSection .grid-2 > div,#nationalChart,#nationalChart .chart{min-width:0;max-width:100%}
+@media(max-width:620px){#nationalChart .bar-row{min-width:0;width:100%;grid-template-columns:92px minmax(0,1fr) 65px;gap:5px}#nationalChart .bar-number{white-space:nowrap;font-size:10px;overflow:hidden;text-overflow:clip}}
+
+/* Alpha 0.14: datos cartográficos estatales INEGI y auditoría de cobertura. */
+.inegi-controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:8px 0 12px;padding:10px;border:1px solid #244b62;background:#0b2030;border-radius:10px}
+.inegi-controls .small{flex:1;min-width:155px;line-height:1.5}
+.inegi-controls button[aria-pressed="true"]{background:#0a496d;border-color:#00a6ff;color:#fff}
+.inegi-controls button:disabled{opacity:.55;cursor:wait}
+.map-audit{padding:14px 17px;margin:14px 0 8px;background:#0e2637;border:1px solid #285675;border-radius:11px}
+.map-audit strong{font-size:12px;color:#9cddff}
+.map-audit-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:12px 0}
+.map-audit-grid span{border-left:3px solid #00a6ff;background:#112f42;padding:9px 11px;font-size:12px;color:#d6edf9;border-radius:4px}
+@media(max-width:650px){.map-audit-grid{grid-template-columns:1fr}}

@@ -1,0 +1,14 @@
+NEXUS ENERGY · Optimización cartográfica INEGI · Alpha 0.16
+SOLO visualización a escala nacional. Los contornos simplificados no tienen precisión jurídica ni se deben usar para medir superficies.
+Método: Douglas–Peucker por anillo, preservando cierres y orientación, límite de error de área de 2 % por anillo.
+AVISO: no se garantiza topología perfecta entre polígonos vecinos; las fronteras compartidas pueden diferir ligeramente.
+Entidades: 32; polígonos: 398; anillos: 400
+Vértices originales: 1014750; visualización: 51194; reducción: 94.96 %
+Tamaño original: 27.50 MiB; capa web: 1.39 MiB; reducción: 94.94 %
+Tolerancia máxima del algoritmo: 0.002 grados (no se traduce a precisión oficial).
+Anillos conservados completos: 267; anillos reducidos: 133; máximo error relativo de área por anillo: 1.9839 %
+SHA256 del GeoJSON original: 170c3ea5ff472f08ece97970dc90ad4ba8c6f503e33859655f315091c105cc91
+SHA256 de la copia para web: 4ef63346dc19de377ea323a2cabe47230aca8218c04f41e95c78f4e044dcb553
+Resultado: pasó validación estructural de ambas capas. Requiere inspección visual adicional después de simplificar.
+Archivo original conservado sin cambios: data/inegi_estados_2025.geojson
+Archivo derivado: data/inegi_estados_web.geojson

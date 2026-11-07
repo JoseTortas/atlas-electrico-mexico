@@ -1,0 +1,13 @@
+NEXUS ENERGY · Auditoría cartográfica local
+La auditoría no sustituye pruebas visuales ni confirma polígonos de CFE/CENACE.
+OK · 32 entidades estatales · 27.50 MiB
+OK · 398 polígonos · 32 entidades multipolígono · 400 anillos · 1014750 vértices revisados
+OK · Extensión geográfica: lon [-118.36526, -86.71041], lat [14.53210, 32.71865]
+OK · 32 nombres únicos: Aguascalientes, Baja California, Baja California Sur, Campeche, Coahuila de Zaragoza, Colima, Chiapas, Chihuahua, Ciudad de México, Durango, Guanajuato, Guerrero, Hidalgo, Jalisco, México, Michoacán de Ocampo, Morelos, Nayarit, Nuevo León, Oaxaca, Puebla, Querétaro, Quintana Roo, San Luis Potosí, Sinaloa, Sonora, Tabasco, Tamaulipas, Tlaxcala, Veracruz de Ignacio de la Llave, Yucatán, Zacatecas
+OK · Capa ligera: 1.39 MiB, 51194 vértices, mismas 32 entidades, polígonos y anillos que la fuente.
+AVISO · La geometría ligera es derivada para visualización. No confirma la topología perfecta ni los límites de CFE/CENACE.
+OK · Generación: botón INEGI + contenedor Leaflet + inicializador presentes
+OK · Transmisión: botón INEGI + contenedor Leaflet + inicializador presentes
+OK · Distribución: botón INEGI + contenedor Leaflet + inicializador presentes
+OK · CSS local para Leaflet (MAP-001) presente
+RESULTADO: comprobación estructural completa; tu prueba visual anterior cubre la fuente original. La copia simplificada, si existe, requiere validación visual independiente.
