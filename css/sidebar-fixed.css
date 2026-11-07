@@ -1,0 +1,43 @@
+/* NEXUS ENERGY 0.18.2 | barra lateral anclada al viewport.
+   La página hace scroll en el área principal, no en la navegación.
+   No aplicar transforms a .sidebar: position:fixed debe permanecer en el viewport. */
+@media (min-width:901px) {
+  .sidebar {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    width:258px;
+    height:100vh;
+    height:100dvh;
+    z-index:80;
+    overflow-y:auto;
+    overflow-x:hidden;
+    overscroll-behavior:contain;
+    scrollbar-width:thin;
+    scrollbar-color:#1d5677 transparent;
+  }
+  .main-shell {
+    grid-column:2;
+    min-width:0;
+  }
+}
+@media (max-width:900px) {
+  .main-shell {grid-column:1;min-width:0}
+  .sidebar {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:-270px;
+    width:258px;
+    height:100vh;
+    height:100dvh;
+    z-index:100;
+    overflow-y:auto;
+    overflow-x:hidden;
+    overscroll-behavior:contain;
+    scrollbar-width:thin;
+    scrollbar-color:#1d5677 transparent;
+  }
+  .sidebar.open {left:0}
+}
